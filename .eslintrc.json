@@ -1,0 +1,48 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "no-const-assign": "error",
+    "no-debugger": "error",
+    "no-duplicate-case": "error",
+    "no-duplicate-imports": "error",
+    "no-use-before-define": "error",
+    "no-unreachable": "error",
+    "default-case": "error",
+    "eqeqeq": "error",
+    "no-alert": "error",
+    "no-empty": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-param-reassign": "off",
+    "import/prefer-default-export": "off",
+    "import/no-cycle": "off",
+    "react/function-component-definition": "off",
+    "react/react-in-jsx-scope": "off",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "react/no-unknown-property": ["error", { "ignore": ["css"] }],
+    "no-unneeded-ternary": "warn",
+    "no-shadow": "warn",
+    "radix": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/forbid-prop-types": ["off"],
+    "prefer-destructuring": ["off"],
+    "no-useless-return": ["off"],
+    "react/jsx-curly-brace-presence": "warn",
+    "jsx-a11y/label-has-associated-control": "off",
+    "no-nested-ternary": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "env": {
+    "jest/globals": true
+  }
+}

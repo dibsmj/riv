@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /DATAPRIVACYPOLICY.html
+Disallow: /GeneralTermsofUseMjunction.html
+Disallow: /Code%20of%20Conduct.htm
+Disallow: /customer
+Disallow: /uat
+Disallow: /uat-portal
+Disallow: /qa
+Disallow: /*/landing-page/*
+Disallow: /dev
+Allow: /static/*
+Allow: /*.js
+Allow: /*.css
+Sitemap: https://www.rivexa.com/sitemap.xml

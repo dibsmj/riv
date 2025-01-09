@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/constants/*": ["./src/constants/*"],
+      "@/component/*": ["./src/component/*"],
+      "@/pagecomponent/*": ["./src/pagecomponent/*"],
+      "@/redux/*": ["./src/redux/*"],
+      "@/config/*": ["./src/config/*"]
+    }
+  }
+}
